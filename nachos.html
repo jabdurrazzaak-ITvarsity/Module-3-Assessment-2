@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Recipe Book | Starters | Nachos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontAwesome/css/all.css">
+</head>
+<body class="body-recipes">
+    
+    <div class="header">
+        <a href="starters.html">
+            <i class="fas fa-arrow-left"></i>
+        </a>
+
+        <h2>MyRestaurantMenu</h2>
+    </div>
+
+    <div id="recipe">
+        
+        <div class="recipe-details">
+            <img src="images/starters/nachos.jpg">
+
+            <h1>Nachos</h1>
+
+            <div class="recipe-details-info">
+                <h4><b>Prep Time: </b>10 mins</h4>
+                <h2><b>Price:</b> R40</h2>
+                <h4><b>Meal for one</b></h4>
+                <p>A delicious starter which can be topped with any topping of your choice</p>
+            </div>
+
+            <div class="recipe-details-ingredients">
+                <h2>TOPPING</h2>
+
+                <input id="check-01" type="checkbox">
+                <label for="check-01">guacamole</label>
+                <br>
+                <input id="check-02" type="checkbox">
+                <label for="check-02">sour cream</label>
+                <br>
+                <input id="check-03" type="checkbox">
+                <label for="check-03">sliced jalapeños</label>
+                <br>
+                <input id="check-04" type="checkbox">
+                <label for="check-04">fresh cilantro</label>
+                <br>
+                <form action="/action_page.php">
+                    <h3>Please add notes on our meals and add requests for meals which we do not have yet below!</h3>
+                    <textarea name="message" rows="10" cols="30">
+                    </textarea>
+                </form>
+            </div>
+            
+        </div>
+        <a href="order-placed.html">
+            <button class="button">Place Order</button>
+        </a>
+    </div>
+</body>
+</html>
